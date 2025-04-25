@@ -1,13 +1,14 @@
 """
 @author Michele Carletti
-Implement a Prioritized Experience Replay (PER) buffer for DQN-based reinforcement learning
+Prioritized Experience Replay (PER) buffer for DQN-based reinforcement learning.
+Inspired by T. Schaul, J. Quan, et al., Prioritized Experience Replay, 2016 paper.
 """
 
 import numpy as np
 
 class PER:
     def __init__(self, capacity, alpha=0.6):
-        """ Prioritized Experience Replay (PER)\n Buffer with priority"""
+        """ Prioritized Experience Replay (PER). Buffer with priority"""
         self.capacity = capacity
         self.buffer = []
         self.priorities = []
@@ -26,7 +27,7 @@ class PER:
         self.position = (self.position + 1) % self.capacity
     
     def sample(self, batch_size, beta=0.4):
-        """ Sample batch_size elements from the buffer.\n Probabilities are derived from priorities"""
+        """ Sample batch_size elements from the buffer. Probabilities are derived from priorities"""
         if len(self.buffer) == self.capacity:
             priorities = np.array(self.priorities)
         else:
