@@ -1,0 +1,167 @@
+2025-05-01 18:02:10,622 - INFO - ==== RUN HEADER ====
+2025-05-01 18:02:10,622 - INFO - Number of Qubits: 4
+2025-05-01 18:02:10,622 - INFO - VQC Layers: 3
+2025-05-01 18:02:10,624 - INFO - Trained Parameters File: cartpole/v1_3l/850ep_0.01.pth
+2025-05-01 18:02:10,624 - INFO - Quantum Backend: ibm_sherbrooke
+2025-05-01 18:02:10,624 - INFO - Number of Shots per Execution: 512
+2025-05-01 18:02:10,624 - INFO - ====================
+
+2025-05-01 18:02:10,649 - INFO - === Start Run ===
+
+2025-05-01 18:02:10,649 - INFO - --- Episode 1/10 ---
+2025-05-01 18:02:10,716 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:02:10,740 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:02:18,534 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:02:27,364 - INFO - Job completed!
+2025-05-01 18:02:27,364 - INFO - Pauli-Z expectation: [0.12890625, 0.203125, 0.0234375, 0.015625]
+2025-05-01 18:02:27,364 - INFO - Q-values: [12.65460205078125, 16.791677474975586]
+2025-05-01 18:02:27,364 - INFO - Action: Push to the right
+2025-05-01 18:02:27,388 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:02:27,389 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:02:27,626 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:02:38,746 - INFO - Job completed!
+2025-05-01 18:02:38,749 - INFO - Pauli-Z expectation: [-0.28125, 0.1953125, 0.18359375, -0.0078125]
+2025-05-01 18:02:38,751 - INFO - Q-values: [10.354559898376465, 11.039450645446777]
+2025-05-01 18:02:38,751 - INFO - Action: Push to the right
+2025-05-01 18:02:38,770 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:02:38,770 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:02:39,096 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:02:51,374 - INFO - Job completed!
+2025-05-01 18:02:51,374 - INFO - Pauli-Z expectation: [0.03515625, 0.015625, 0.15625, -0.19921875]
+2025-05-01 18:02:51,374 - INFO - Q-values: [5.491046905517578, 6.90493631362915]
+2025-05-01 18:02:51,374 - INFO - Action: Push to the right
+2025-05-01 18:02:51,400 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:02:51,400 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:02:52,041 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:03:05,709 - INFO - Job completed!
+2025-05-01 18:03:05,712 - INFO - Pauli-Z expectation: [-0.015625, 0.0234375, 0.25, 0.07421875]
+2025-05-01 18:03:05,715 - INFO - Q-values: [9.552807807922363, 9.059189796447754]
+2025-05-01 18:03:05,715 - INFO - Action: Push to the left
+2025-05-01 18:03:05,733 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:03:05,733 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:03:06,115 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:04:45,347 - INFO - Job completed!
+2025-05-01 18:04:45,350 - INFO - Pauli-Z expectation: [-0.04296875, 0.07421875, 0.1875, -0.09375]
+2025-05-01 18:04:45,352 - INFO - Q-values: [6.568165302276611, 7.2151031494140625]
+2025-05-01 18:04:45,354 - INFO - Action: Push to the right
+2025-05-01 18:04:45,387 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:04:45,387 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:04:45,715 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:05:06,547 - INFO - Job completed!
+2025-05-01 18:05:06,549 - INFO - Pauli-Z expectation: [-0.16015625, 0.109375, 0.1796875, 0.05078125]
+2025-05-01 18:05:06,551 - INFO - Q-values: [9.215062141418457, 9.865107536315918]
+2025-05-01 18:05:06,551 - INFO - Action: Push to the right
+2025-05-01 18:05:06,558 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:05:06,571 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:05:06,858 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:05:17,450 - INFO - Job completed!
+2025-05-01 18:05:17,452 - INFO - Pauli-Z expectation: [-0.1328125, 0.19140625, -0.05859375, 0.04296875]
+2025-05-01 18:05:17,454 - INFO - Q-values: [5.71602725982666, 9.199524879455566]
+2025-05-01 18:05:17,454 - INFO - Action: Push to the right
+2025-05-01 18:05:17,467 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:05:17,471 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:05:17,811 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:05:32,714 - INFO - Job completed!
+2025-05-01 18:05:32,718 - INFO - Pauli-Z expectation: [-0.1796875, 0.046875, 0.37109375, -0.15625]
+2025-05-01 18:05:32,718 - INFO - Q-values: [11.69099235534668, 9.449658393859863]
+2025-05-01 18:05:32,721 - INFO - Action: Push to the left
+2025-05-01 18:05:32,740 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:05:32,740 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:05:33,008 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:05:44,433 - INFO - Job completed!
+2025-05-01 18:05:44,433 - INFO - Pauli-Z expectation: [0.03125, 0.11328125, 0.05078125, 0.19140625]
+2025-05-01 18:05:44,433 - INFO - Q-values: [11.649566650390625, 14.250911712646484]
+2025-05-01 18:05:44,433 - INFO - Action: Push to the right
+2025-05-01 18:05:44,467 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:05:44,467 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:05:44,777 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:05:56,414 - INFO - Job completed!
+2025-05-01 18:05:56,416 - INFO - Pauli-Z expectation: [0.00390625, 0.11328125, -0.03515625, -0.0390625]
+2025-05-01 18:05:56,419 - INFO - Q-values: [1.9006909132003784, 5.524404525756836]
+2025-05-01 18:05:56,419 - INFO - Action: Push to the right
+2025-05-01 18:05:56,437 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:05:56,446 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:05:56,821 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:06:08,393 - INFO - Job completed!
+2025-05-01 18:06:08,393 - INFO - Pauli-Z expectation: [-0.0703125, -0.21875, -0.03515625, -0.02734375]
+2025-05-01 18:06:08,393 - INFO - Q-values: [-1.965340256690979, 1.6512423753738403]
+2025-05-01 18:06:08,393 - INFO - Action: Push to the right
+2025-05-01 18:06:08,393 - INFO - Episode Reward: 11.0
+
+2025-05-01 18:06:08,393 - INFO - --- Episode 2/10 ---
+2025-05-01 18:06:08,443 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:06:08,443 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:06:08,727 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:06:22,517 - INFO - Job completed!
+2025-05-01 18:06:22,519 - INFO - Pauli-Z expectation: [-0.0234375, 0.1171875, 0.03515625, -0.09765625]
+2025-05-01 18:06:22,522 - INFO - Q-values: [2.972808361053467, 6.012443542480469]
+2025-05-01 18:06:22,522 - INFO - Action: Push to the right
+2025-05-01 18:06:22,537 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:06:22,546 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:06:22,946 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:06:33,988 - INFO - Job completed!
+2025-05-01 18:06:33,995 - INFO - Pauli-Z expectation: [-0.12890625, 0.28515625, 0.00390625, 0.26171875]
+2025-05-01 18:06:33,995 - INFO - Q-values: [16.48208236694336, 19.398231506347656]
+2025-05-01 18:06:33,995 - INFO - Action: Push to the right
+2025-05-01 18:06:34,009 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:06:34,009 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:06:34,528 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:06:45,874 - INFO - Job completed!
+2025-05-01 18:06:45,877 - INFO - Pauli-Z expectation: [0.01171875, 0.23828125, 0.01171875, -0.05078125]
+2025-05-01 18:06:45,879 - INFO - Q-values: [6.733283519744873, 10.206365585327148]
+2025-05-01 18:06:45,879 - INFO - Action: Push to the right
+2025-05-01 18:06:45,898 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:06:45,898 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:06:46,202 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:06:56,322 - INFO - Job completed!
+2025-05-01 18:06:56,324 - INFO - Pauli-Z expectation: [-0.265625, 0.20703125, 0.13671875, 0.1484375]
+2025-05-01 18:06:56,324 - INFO - Q-values: [14.3622407913208, 15.452834129333496]
+2025-05-01 18:06:56,324 - INFO - Action: Push to the right
+2025-05-01 18:06:56,336 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:06:56,349 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:06:56,635 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:07:10,771 - INFO - Job completed!
+2025-05-01 18:07:10,771 - INFO - Pauli-Z expectation: [-0.10546875, 0.09375, -0.32421875, -0.140625]
+2025-05-01 18:07:10,771 - INFO - Q-values: [1.065006136894226, 4.663306713104248]
+2025-05-01 18:07:10,771 - INFO - Action: Push to the right
+2025-05-01 18:07:10,788 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:07:10,788 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:07:11,112 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:07:22,324 - INFO - Job completed!
+2025-05-01 18:07:22,324 - INFO - Pauli-Z expectation: [-0.09765625, -0.0078125, -0.1875, 0.078125]
+2025-05-01 18:07:22,324 - INFO - Q-values: [0.751768946647644, 4.194243907928467]
+2025-05-01 18:07:22,335 - INFO - Action: Push to the right
+2025-05-01 18:07:22,367 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:07:22,367 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:07:22,662 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:07:38,510 - INFO - Job completed!
+2025-05-01 18:07:38,514 - INFO - Pauli-Z expectation: [-0.0703125, -0.02734375, 0.05859375, 0.0078125]
+2025-05-01 18:07:38,514 - INFO - Q-values: [0.2233959436416626, 2.8990769386291504]
+2025-05-01 18:07:38,514 - INFO - Action: Push to the right
+2025-05-01 18:07:38,526 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:07:38,526 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:07:38,857 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:10:55,082 - INFO - Job completed!
+2025-05-01 18:10:55,083 - INFO - Pauli-Z expectation: [-0.23046875, -0.09375, 0.00390625, -0.078125]
+2025-05-01 18:10:55,088 - INFO - Q-values: [-1.8375385999679565, 1.7174780368804932]
+2025-05-01 18:10:55,088 - INFO - Action: Push to the right
+2025-05-01 18:10:55,104 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:10:55,115 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:10:55,457 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:11:09,218 - INFO - Job completed!
+2025-05-01 18:11:09,222 - INFO - Pauli-Z expectation: [0.03125, 0.01171875, -0.2421875, -0.08203125]
+2025-05-01 18:11:09,222 - INFO - Q-values: [0.048352599143981934, 3.8964247703552246]
+2025-05-01 18:11:09,222 - INFO - Action: Push to the right
+2025-05-01 18:11:09,222 - INFO - Episode Reward: 9.0
+
+2025-05-01 18:11:09,222 - INFO - --- Episode 3/10 ---
+2025-05-01 18:11:09,240 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:11:09,240 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:11:09,627 - INFO - Submitting the job to ibm_sherbrooke
+2025-05-01 18:14:13,798 - INFO - Job completed!
+2025-05-01 18:14:13,798 - INFO - Pauli-Z expectation: [0.01953125, 0.09765625, 0.0234375, 0.12109375]
+2025-05-01 18:14:13,803 - INFO - Q-values: [7.191412448883057, 10.295797348022461]
+2025-05-01 18:14:13,803 - INFO - Action: Push to the right
+2025-05-01 18:14:13,822 - INFO - Pennylane -> OpenQASM
+2025-05-01 18:14:13,822 - INFO - OpenQASM -> Qiskit
+2025-05-01 18:14:14,255 - INFO - Submitting the job to ibm_sherbrooke
